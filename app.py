@@ -41,7 +41,7 @@ This app predicts whether a credit card transaction is **legitimate** or **fraud
 """)
 
 # Add an image
-st.image("fraud_detection.jpg", caption="Fraud Detection System", use_container_width=True)
+st.image("fraud_detection.jpg", caption="Fraud Detection System", use_column_width=True)
 
 # Display model accuracy
 st.sidebar.header("Model Performance")
